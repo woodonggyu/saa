@@ -6,7 +6,7 @@ from botocore.exceptions import ClientError
 
 
 group = 'Admin'
-allow_ip_addresses = ["115.142.120.217/32"]
+allow_ip_addresses = ["1.1.1.1/32"]
 
 iam = boto3.client('iam')
 
