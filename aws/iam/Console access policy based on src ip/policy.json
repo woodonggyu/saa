@@ -6,7 +6,7 @@
         "Resource": "*",
         "Condition": {
             "NotIpAddress": {
-                "aws:SourceIp": ""
+                "aws:SourceIp": "115.142.120.217/32"
             }
         }
     }

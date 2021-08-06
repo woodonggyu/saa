@@ -11,7 +11,7 @@ allow_ip_addresses = ["1.1.1.1/32"]
 iam = boto3.client('iam')
 
 # create iam policy
-with open(file='console_access_policy.json', mode='rb') as fp:
+with open(file='policy.json', mode='rb') as fp:
     policy = json.load(fp)
 
 # setting a iam policy
