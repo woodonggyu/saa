@@ -32,15 +32,16 @@ AWS 에서도 다단계 인증을 위한 여러 방법이 존재한다.
 
 AWS 에서 제공하는 문서를 참고할 경우, 몇 가지 문제가 발생한다.
 
-1. **패스워드 변경 권한 없음**
-IAM 계정 생성 시, "Require password reset" 옵션을 활성화하는 경우 MFA 설정 전에 패스워드 변경에 대한 권한이 없어 로그인이 불가능하다.
+1. **패스워드 변경 권한 없음**  
+AM 계정 생성 시, "Require password reset" 옵션을 활성화하는 경우 MFA 설정 전에 패스워드 변경에 대한 권한이 없어 로그인이 불가능하다.
 
-2. **Virtual MFA Device 삭제 불가**
+2. **Virtual MFA Device 삭제 불가**  
 MFA 인증 등록 과정에서 문제가 발생하는 경우 (ex. 세션이동, OTP 인증 실패 등), 생성된 임시 MFA 삭제가 불가능하다.
 
 <br>
 
 위와 같은 문제를 해결하기 위해서 다음과 같이 권한을 추가할 수 있다.
+
 NotAction 요소에 "iam:ChangePassword", "iam:DeleteVirtualMFADevice", "iam:GetAccountPasswordPolicy" 권한을 추가하였다.
 ```json
 {
