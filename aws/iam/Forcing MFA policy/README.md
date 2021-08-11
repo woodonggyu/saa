@@ -1,6 +1,6 @@
 # 계정 MFA(Multi-Factor Authentication) 강제화
 
-**다단계 인증(MFA, Multi-Factor Authentication)**이란, 계정 인증 프로세스에 최소한 2번 이상의 인증 요소를 추가하는 것을 뜻한다. 
+**다단계 인증(MFA, Multi-Factor Authentication)** 이란, 계정 인증 프로세스에 최소한 2번 이상의 인증 요소를 추가하는 것을 뜻한다. 
 
 대표적으로는 생체 인증, 모바일 장치를 통한 인증 등이 있다. 
 
