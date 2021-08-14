@@ -118,7 +118,8 @@ NotAction 요소에 "iam:ChangePassword", "iam:DeleteVirtualMFADevice", "iam:Get
       "Effect": "Allow",
       "Action": [
         "iam:CreateVirtualMFADevice",
-        "iam:DeleteVirtualMFADevice"
+        "iam:DeleteVirtualMFADevice",
+        "iam:ListVirtualMFADevices"
       ],
       "Resource": "arn:aws:iam::*:mfa/${aws:username}"
     }, {

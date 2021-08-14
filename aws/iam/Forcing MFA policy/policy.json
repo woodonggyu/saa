@@ -73,7 +73,7 @@
       "Action": [
         "iam:CreateVirtualMFADevice",
         "iam:DeleteVirtualMFADevice",
-        "iam:ListVirtualMFADevices",
+        "iam:ListVirtualMFADevices"
       ],
       "Resource": "arn:aws:iam::*:mfa/${aws:username}"
     }, {
