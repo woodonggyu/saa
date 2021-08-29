@@ -40,7 +40,7 @@ IAM 에서는 두 가지 유형의 자격 증명 연동을 지원하며, 자격 
 
 * **엔터프라이즈 자격 증명 연동**
 
-임시 액세스 권한에 대한 SSO(Single Sign-On) 연동을 통해 조직의 네트워크에서 사용자 인증을 통한 AWS 액세스 권한을 사용자에게 제공할 수 있다. AWS STS 에서는 [SAML 2.0 기반 연동] (https://docs.aws.amazon.com/ko_kr/IAM/latest/UserGuide/id_roles_providers_saml.html) 을 지원한다.
+임시 액세스 권한에 대한 SSO(Single Sign-On) 연동을 통해 조직의 네트워크에서 사용자 인증을 통한 AWS 액세스 권한을 사용자에게 제공할 수 있다. AWS STS 에서는 [SAML 2.0 기반 연동](https://docs.aws.amazon.com/ko_kr/IAM/latest/UserGuide/id_roles_providers_saml.html) 을 지원한다.
 
 * **웹 자격 증명 연동**
 
